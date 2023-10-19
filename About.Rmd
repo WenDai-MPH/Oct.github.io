@@ -50,6 +50,6 @@ plot_df |>
 
 my cat is Jot. this is Joy
 ![](images/joy.jpg)
-
+![](images/joy1.jpg)
 
 

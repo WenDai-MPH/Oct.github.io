@@ -3,8 +3,6 @@ title: "My awesome website"
 output: 
   html_document:
     toc: true
-    toc_float: true
-   
 ---
 
 ```{r}
@@ -50,7 +48,11 @@ plot_df |>
 
 
 my cat is Jot. this is Joy
+
 ![](images/joy.jpg)
+![](images/joy1.jpg)
+
+
 
 
 
