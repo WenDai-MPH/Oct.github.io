@@ -1,0 +1,56 @@
+---
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+   
+---
+
+```{r}
+library(tidyverse)
+```
+
+# This is Jeff's awesome website
+
+Here is a gif of elmo
+
+This is the code for embedding photo saved somewhere else.
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+You can add text
+
+* and lists
+* with extra bullets
+
+you can *FORMAT* and **Bold**
+
+
+This is a [link](http://www.google.com) to a good data science tool. 
+Here is a link to [P8105](https://p8105.com/making_websites.html). SOON: a link to another page on this site. 
+Here's a link to [about](about.html)page (about is already on the page, so just write like this)
+
+
+
+you can still use R!
+
+```{r}
+plot_df=
+  tibble(
+    x=runif(100),
+    y=1+2*x+rnorm(100)
+  )
+
+plot_df |> 
+  ggplot(aes(x=x,y=y))+
+  geom_point()
+```
+
+# New section
+
+
+my cat is Jot. this is Joy
+![](images/joy.jpg)
+
+
+
