@@ -53,6 +53,6 @@ my cat is Jot. this is Joy
 ![](images/joy1.jpg)
 
 
-
+Definitely there is [plotly](plotly.html)stuff!
 
 
